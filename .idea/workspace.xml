@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3023.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1026.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +31,7 @@
     <SUITE FILE_PATH="coverage/BOJ$1927.coverage" NAME="1927 Coverage Results" MODIFIED="1510221421550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$9324.coverage" NAME="9324 Coverage Results" MODIFIED="1509880398031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2847.coverage" NAME="2847 Coverage Results" MODIFIED="1510224063984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$1026.coverage" NAME="1026 Coverage Results" MODIFIED="1510999980278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$6581.coverage" NAME="6581 Coverage Results" MODIFIED="1510479809870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$10988.coverage" NAME="10988 Coverage Results" MODIFIED="1510229282378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2839.coverage" NAME="2839 Coverage Results" MODIFIED="1509790921272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -108,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3023.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3023.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3023.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1026.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1026.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -134,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1904.py" />
         <option value="$PROJECT_DIR$/1790.py" />
         <option value="$PROJECT_DIR$/2018.py" />
         <option value="$PROJECT_DIR$/2986.py" />
@@ -185,6 +195,7 @@
         <option value="$PROJECT_DIR$/3649.py" />
         <option value="$PROJECT_DIR$/3101.py" />
         <option value="$PROJECT_DIR$/3023.py" />
+        <option value="$PROJECT_DIR$/1026.py" />
       </list>
     </option>
   </component>
@@ -253,26 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3023">
-    <configuration default="false" name="10815" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10815.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.1026">
     <configuration default="false" name="1920" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,6 +336,25 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3023.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1026" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1026.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,19 +509,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.10815" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1920" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3649" />
-      <item index="3" class="java.lang.String" itemvalue="Python.3101" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3023" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1920" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3649" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3101" />
+      <item index="3" class="java.lang.String" itemvalue="Python.3023" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1026" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3023" />
-        <item index="1" class="java.lang.String" itemvalue="Python.3101" />
-        <item index="2" class="java.lang.String" itemvalue="Python.3649" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1920" />
-        <item index="4" class="java.lang.String" itemvalue="Python.10815" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1026" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3023" />
+        <item index="2" class="java.lang.String" itemvalue="Python.3101" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3649" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1920" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/9324.py" />
     <entry file="file://$PROJECT_DIR$/12791.py" />
     <entry file="file://$PROJECT_DIR$/5597.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -840,6 +850,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1026.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
