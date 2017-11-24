@@ -4,7 +4,7 @@ for i in range(m):
     a, b = map(int,raw_input().split())
     graph[a-1][b-1] = 1
     graph[b-1][a-1] = 1
-
+print graph
 def dfs(graph, start):
     stack = [start]
     visit = []
@@ -27,6 +27,7 @@ def bfs(graph, start):
             for i in range(n):
                 if graph[x-1][i] == 1 and i+1 not in visit:
                     queue.append(i+1)
+                    print queue
     return visit
 print " ".join(map(str,dfs(graph,v)))
 print " ".join(map(str,bfs(graph,v)))
