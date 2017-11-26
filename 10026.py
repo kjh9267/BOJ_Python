@@ -5,18 +5,18 @@ def dfs(graph, visit, start):
         x = stack.pop(-1)
         if visit[x[0]][x[1]] == 0:
             visit[x[0]][x[1]] = 1
-        if x[1]+1 < len(graph):
-            if graph[x[0]][x[1]+1] == color and visit[x[0]][x[1]+1] != 1:
-                stack.append([x[0],x[1]+1])
-        if x[0]+1 < len(graph):
-            if graph[x[0]+1][x[1]] == color and visit[x[0]+1][x[1]] != 1:
-                stack.append([x[0]+1,x[1]])
-        if x[0]-1 >= 0:
-            if graph[x[0]-1][x[1]] == color and visit[x[0]-1][x[1]] != 1:
-                stack.append([x[0]-1,x[1]])
-        if x[1] - 1 >= 0:
-            if graph[x[0]][x[1]-1] == color and visit[x[0]][x[1]-1] != 1:
-                stack.append([x[0],x[1]-1])
+            if x[1]+1 < len(graph):
+                if graph[x[0]][x[1]+1] == color and visit[x[0]][x[1]+1] != 1:
+                    stack.append([x[0],x[1]+1])
+            if x[0]+1 < len(graph):
+                if graph[x[0]+1][x[1]] == color and visit[x[0]+1][x[1]] != 1:
+                    stack.append([x[0]+1,x[1]])
+            if x[0]-1 >= 0:
+                if graph[x[0]-1][x[1]] == color and visit[x[0]-1][x[1]] != 1:
+                    stack.append([x[0]-1,x[1]])
+            if x[1] - 1 >= 0:
+                if graph[x[0]][x[1]-1] == color and visit[x[0]][x[1]-1] != 1:
+                    stack.append([x[0],x[1]-1])
     return visit
 n = input()
 graph = [raw_input()for i in range(n)]
