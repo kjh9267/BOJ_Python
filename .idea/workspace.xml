@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2644.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7576.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,6 +101,7 @@
     <SUITE FILE_PATH="coverage/BOJ$5576.coverage" NAME="5576 Coverage Results" MODIFIED="1510214707416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2839.coverage" NAME="2839 Coverage Results" MODIFIED="1509790921272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$5624.coverage" NAME="5624 Coverage Results" MODIFIED="1509793724367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$7576.coverage" NAME="7576 Coverage Results" MODIFIED="1512035426877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$1748.coverage" NAME="1748 Coverage Results" MODIFIED="1512028084985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$5532.coverage" NAME="5532 Coverage Results" MODIFIED="1510210700472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$1932.coverage" NAME="1932 Coverage Results" MODIFIED="1511613793400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -125,11 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2644.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2644.py">
+      <file leaf-file-name="7576.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7576.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="1176">
+              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -162,7 +163,6 @@
         <option value="$PROJECT_DIR$/11722.py" />
         <option value="$PROJECT_DIR$/7785.py" />
         <option value="$PROJECT_DIR$/2108.py" />
-        <option value="$PROJECT_DIR$/7576.py" />
         <option value="$PROJECT_DIR$/2589.py" />
         <option value="$PROJECT_DIR$/1507.py" />
         <option value="$PROJECT_DIR$/10816.py" />
@@ -202,6 +202,7 @@
         <option value="$PROJECT_DIR$/12791.py" />
         <option value="$PROJECT_DIR$/1748.py" />
         <option value="$PROJECT_DIR$/2644.py" />
+        <option value="$PROJECT_DIR$/7576.py" />
       </list>
     </option>
   </component>
@@ -267,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2644">
+  <component name="RunManager" selected="Python.7576">
     <configuration name="12791" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,7 +341,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="8979" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7576" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -353,7 +354,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8979.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7576.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -506,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.8979" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2010" />
-      <item index="2" class="java.lang.String" itemvalue="Python.2644" />
-      <item index="3" class="java.lang.String" itemvalue="Python.12791" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1748" />
+      <item index="0" class="java.lang.String" itemvalue="Python.2010" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2644" />
+      <item index="2" class="java.lang.String" itemvalue="Python.12791" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1748" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7576" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.2644" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1748" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12791" />
-        <item index="3" class="java.lang.String" itemvalue="Python.2010" />
-        <item index="4" class="java.lang.String" itemvalue="Python.8979" />
+        <item index="0" class="java.lang.String" itemvalue="Python.7576" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2644" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1748" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12791" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2010" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7576.py" />
     <entry file="file://$PROJECT_DIR$/2589.py" />
     <entry file="file://$PROJECT_DIR$/1507.py" />
     <entry file="file://$PROJECT_DIR$/10816.py">
@@ -826,6 +826,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7576.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding />
         </state>
       </provider>
