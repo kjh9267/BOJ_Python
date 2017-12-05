@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11053.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11722.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +77,7 @@
     <SUITE FILE_PATH="coverage/BOJ$2167.coverage" NAME="2167 Coverage Results" MODIFIED="1511767978866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$1110.coverage" NAME="1110 Coverage Results" MODIFIED="1512377710800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$1927.coverage" NAME="1927 Coverage Results" MODIFIED="1511342467431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BOJ$11722.coverage" NAME="11722 Coverage Results" MODIFIED="1511348722658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$11722.coverage" NAME="11722 Coverage Results" MODIFIED="1512464312657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2583.coverage" NAME="2583 Coverage Results" MODIFIED="1511681818511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$7785.coverage" NAME="7785 Coverage Results" MODIFIED="1511349279931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2631.coverage" NAME="2631 Coverage Results" MODIFIED="1509785202518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -149,11 +149,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="11053.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="11053.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11053.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11722.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11722.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -175,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10026.py" />
         <option value="$PROJECT_DIR$/2583.py" />
         <option value="$PROJECT_DIR$/2455.py" />
         <option value="$PROJECT_DIR$/1021.py" />
@@ -226,6 +235,7 @@
         <option value="$PROJECT_DIR$/2156.py" />
         <option value="$PROJECT_DIR$/11052.py" />
         <option value="$PROJECT_DIR$/11053.py" />
+        <option value="$PROJECT_DIR$/11722.py" />
       </list>
     </option>
   </component>
@@ -291,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11053">
+  <component name="RunManager" selected="Python.11722">
     <configuration name="11052" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,7 +338,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="11066" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11722" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -341,7 +351,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11066.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11722.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -530,19 +540,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.11066" />
-      <item index="1" class="java.lang.String" itemvalue="Python.9461" />
-      <item index="2" class="java.lang.String" itemvalue="Python.2156" />
-      <item index="3" class="java.lang.String" itemvalue="Python.11052" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11053" />
+      <item index="0" class="java.lang.String" itemvalue="Python.9461" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2156" />
+      <item index="2" class="java.lang.String" itemvalue="Python.11052" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11053" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11722" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11053" />
-        <item index="1" class="java.lang.String" itemvalue="Python.11052" />
-        <item index="2" class="java.lang.String" itemvalue="Python.2156" />
-        <item index="3" class="java.lang.String" itemvalue="Python.9461" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11066" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11722" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11053" />
+        <item index="2" class="java.lang.String" itemvalue="Python.11052" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2156" />
+        <item index="4" class="java.lang.String" itemvalue="Python.9461" />
       </list>
     </recent_temporary>
   </component>
@@ -597,13 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1932.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2455.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -843,6 +846,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11722.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
