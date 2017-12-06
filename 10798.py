@@ -1,14 +1,10 @@
-a = list(raw_input())
-b = list(raw_input())
-c = list(raw_input())
-d = list(raw_input())
-e = list(raw_input())
-z = [a,b,c,d,e]
-x = []
-for i in range(15):
-    for y in z:
+import sys
+res = ''
+a = [sys.stdin.readline().strip() for i in xrange(5)]
+for i in xrange(15):
+    for j in xrange(5):
         try:
-            x.append(y[i])
+            res += a[j][i]
         except:
-            continue
-print "".join(x)
+            pass
+print res
