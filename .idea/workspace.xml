@@ -2,7 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11048.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BFS,DFS/9205.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Floyd/9205.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10026.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1003.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10039.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1010.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10159.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1021.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1026.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1032.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10409.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10451.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10707.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1076.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10797.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10798.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10808.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10815.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10816.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10828.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10845.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10871.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10872.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10886.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10984.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10988.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1100.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11047.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11048.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11053.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1110.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11399.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11403.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11404.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1149.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1152.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11562.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1157.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1158.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11586.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1159.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11654.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11656.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11722.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1260.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12790.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12791.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1316.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1357.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1389.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14716.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1475.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1613.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1764.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1789.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1912.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1920.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1924.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1927.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1932.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1956.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1977.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2010.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2033.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2156.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2163.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2167.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2178.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2224.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2438.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2439.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2455.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2458.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2490.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2563.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2573.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2577.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2579.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2583.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2606.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2610.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2631.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2644.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2660.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2667.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2743.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2750.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2789.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2798.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2804.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2805.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2822.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2839.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2846.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2847.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2851.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2864.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2869.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2902.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2914.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2920.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2935.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2953.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2965.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3023.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3034.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3046.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3052.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/4153.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/4504.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5032.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5063.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5532.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5543.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5554.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5565.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5567.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5575.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5576.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5585.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5586.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5596.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5597.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5598.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5624.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6359.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/7576.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/7785.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/8320.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/8741.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/8958.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/8979.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9095.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9205.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9461.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9498.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9507.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9550.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9996.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +151,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BOJ$1026.coverage" NAME="1026 Coverage Results" MODIFIED="1510999980278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$1026.coverage" NAME="1026 Coverage Results" MODIFIED="1513934865720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/구현" />
     <SUITE FILE_PATH="coverage/BOJ$2804.coverage" NAME="2804 Coverage Results" MODIFIED="1513513560519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2902.coverage" NAME="2902 Coverage Results" MODIFIED="1510227323723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$8320.coverage" NAME="8320 Coverage Results" MODIFIED="1509713541897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -169,18 +307,7 @@
     <SUITE FILE_PATH="coverage/BOJ$1613.coverage" NAME="1613 Coverage Results" MODIFIED="1512542960157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="11048.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11048.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,11 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/254qafadsf.py" />
-        <option value="$PROJECT_DIR$/2438.py" />
-        <option value="$PROJECT_DIR$/1300.py" />
-        <option value="$PROJECT_DIR$/2439.py" />
-        <option value="$PROJECT_DIR$/11506.py" />
         <option value="$PROJECT_DIR$/6986.py" />
         <option value="$PROJECT_DIR$/8741.py" />
         <option value="$PROJECT_DIR$/wefafaf.py" />
@@ -230,7 +352,6 @@
         <option value="$PROJECT_DIR$/1613.py" />
         <option value="$PROJECT_DIR$/2660.py" />
         <option value="$PROJECT_DIR$/2458.py" />
-        <option value="$PROJECT_DIR$/9205.py" />
         <option value="$PROJECT_DIR$/11562.py" />
         <option value="$PROJECT_DIR$/10798.py" />
         <option value="$PROJECT_DIR$/10451.py" />
@@ -247,6 +368,12 @@
         <option value="$PROJECT_DIR$/5549.py" />
         <option value="$PROJECT_DIR$/10844.py" />
         <option value="$PROJECT_DIR$/11048.py" />
+        <option value="$PROJECT_DIR$/BFS,DFS/9205.py" />
+        <option value="$PROJECT_DIR$/9205.py" />
+        <option value="$PROJECT_DIR$/Floyd/9205.py" />
+        <option value="$PROJECT_DIR$/10872.py" />
+        <option value="$PROJECT_DIR$/10886.py" />
+        <option value="$PROJECT_DIR$/11656.py" />
       </list>
     </option>
   </component>
@@ -279,14 +406,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
+              <item name="구현" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +443,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11048">
+  <component name="RunManager" selected="Python.1026">
+    <configuration name="1026" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/구현" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구현/1026.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="10844" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,24 +494,6 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11048.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="11279" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11279.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -550,24 +682,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.11279" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2804" />
-      <item index="2" class="java.lang.String" itemvalue="Python.5549" />
-      <item index="3" class="java.lang.String" itemvalue="Python.10844" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11048" />
+      <item index="0" class="java.lang.String" itemvalue="Python.2804" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5549" />
+      <item index="2" class="java.lang.String" itemvalue="Python.10844" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11048" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1026" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11048" />
-        <item index="1" class="java.lang.String" itemvalue="Python.10844" />
-        <item index="2" class="java.lang.String" itemvalue="Python.5549" />
-        <item index="3" class="java.lang.String" itemvalue="Python.2804" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11279" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1026" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11048" />
+        <item index="2" class="java.lang.String" itemvalue="Python.10844" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5549" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2804" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -581,19 +716,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1855" height="1094" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="764" y="61" width="312" height="958" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2346996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="764" y="61" width="312" height="958" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37284482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37284482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35452586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35452586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32999444" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,169 +751,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11506.py" />
-    <entry file="file://$PROJECT_DIR$/6986.py" />
-    <entry file="file://$PROJECT_DIR$/8741.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wefafaf.py" />
-    <entry file="file://$PROJECT_DIR$/7576.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2178.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8979.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1110.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1912.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1003.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2579.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11047.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9461.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11066.py" />
-    <entry file="file://$PROJECT_DIR$/2156.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11052.py" />
-    <entry file="file://$PROJECT_DIR$/1463.py" />
-    <entry file="file://$PROJECT_DIR$/1010.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1986" column="8" lean-forward="false" selection-start-line="1986" selection-start-column="8" selection-end-line="1986" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9625.py" />
-    <entry file="file://$PROJECT_DIR$/1389.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11053.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2631.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2108.py" />
-    <entry file="file://$PROJECT_DIR$/14950.py" />
-    <entry file="file://$PROJECT_DIR$/14716.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1956.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2163.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4504.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1613.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2660.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2458.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -801,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10451.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2610.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -823,13 +787,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3649.py" />
-    <entry file="file://$PROJECT_DIR$/9205.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2224.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -866,30 +823,278 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5549.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10844.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5549.py" />
+    <entry file="file://$PROJECT_DIR$/10844.py" />
     <entry file="file://$PROJECT_DIR$/11048.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1389.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1613.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS,DFS/2178.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS,DFS/14716.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2846.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5567.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS,DFS/9205.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Floyd/9205.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9205.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10451.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10872.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10886.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11403.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11656.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12790.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12791.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2438.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2439.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/1924.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2033.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2490.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5576.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5554.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5543.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5532.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5575.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5597.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5565.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/5063.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/3034.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2935.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/2563.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/구현/1026.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
