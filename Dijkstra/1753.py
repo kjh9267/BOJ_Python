@@ -29,7 +29,7 @@ while pq.qsize():                 # 우선순위 큐가 빌 때까지 반복
     for i, j in zip(graph[node], cost[node]):   # 간선의 도착점과 그에 대한 비용
         if res[i] > j + res[node]:      # 도착점의 비용과 도착점의 비용 + 전 노드까지의 값을 비교
             res[i] = j + res[node]      # 도착점의 비용이 더 클 경우 도착점의 비용 + 전 노드까지의 값으로 변경
-            pq.put((res[i], i))         # 갱신된 값을 우선순위 큐에도 넣어준다.
+            pq.put((res[i], i))         # 갱신된 값을 우선순위 큐에도 넣어준다
 
 for i in res:
     if i is not inf:
