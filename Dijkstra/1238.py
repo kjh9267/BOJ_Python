@@ -26,7 +26,7 @@ for i in range(n):
 res = [inf for i in range(n)]
 res[x-1] = 0
 
-while pq.qsize():
+while pq.qsize():                               # 정방향 그래프를 이용한 다익스트라 알고리즘
     dist, node = pq.get()
     for i, j in zip(graph[node], cost[node]):    # 간선의 도착점과 그에 대한 비용
         if res[i] > j + res[node]:               # 도착점의 비용과 도착점의 비용 + 전 노드까지의 값을 비교
