@@ -1,33 +1,44 @@
-import sys
+# https://www.acmicpc.net/problem/1865
 
-t = int(sys.stdin.readline())
-inf = float('inf')
 
-for _ in range(t):
-    n, m, w = map(int,sys.stdin.readline().split())
-    graph = [[] for _ in range(n)]
-    res = [inf for _ in range(n)]
-    res[0] = 0
-    key = False
+def bellman_ford(start):
+    dist = [inf for _ in range(N)]
+    dist[start] = 0
 
-    for __ in range(m):
-        a, b, c = map(int,sys.stdin.readline().split())
-        graph[a - 1].append([b - 1, c])
-        graph[b - 1].append([a - 1, c])
+    for count in range(N):
+        for cur in range(N):
+            for nxt, cost in graph[cur]:
+                if dist[nxt] < dist[cur] + cost:
+                    continue
+                dist[nxt] = dist[cur] + cost
 
-    for __ in range(w):
-        a, b, c = map(int,sys.stdin.readline().split())
-        graph[a - 1].append([b - 1, -c])
+    for cur in range(N):
+        for nxt, cost in graph[cur]:
+            if dist[nxt] > dist[cur] + cost:
+                return True
 
-    for i in range(n):
-        for j in range(n):
-            for node, dist in graph[j]:
-                if res[j] != 'inf' and res[node] > res[j] + dist:
-                    res[node] = res[j] + dist
-                    if i == n-1:
-                        key = True
+    return False
 
-    if key is True:
-        print('YES')
-    else:
-        print('NO')
+
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    inf = 100_000_001
+    TC = int(input())
+
+    for _ in range(TC):
+        N, M, W = map(int, input().split())
+        graph = [list() for _ in range(N)]
+
+        for _ in range(M):
+            S, E, T = map(int, input().split())
+            graph[S - 1].append((E - 1, T))
+            graph[E - 1].append((S - 1, T))
+
+        for _ in range(W):
+            S, E, T = map(int, input().split())
+            graph[S - 1].append((E - 1, -T))
+
+        if bellman_ford(0):
+            print('YES')
+        else:
+            print('NO')
