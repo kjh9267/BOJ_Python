@@ -12,11 +12,13 @@ def dijkstra():
     dist[start] = 0
 
     while not pq.empty():
-        _, cur = pq.get()
-        for nxt, cost in graph[cur]:
-            if dist[nxt] <= dist[cur] + cost:
+        cost, cur = pq.get()
+        if cost > dist[cur]:
+            continue
+        for nxt, next_cost in graph[cur]:
+            if dist[nxt] <= dist[cur] + next_cost:
                 continue
-            dist[nxt] = dist[cur] + cost
+            dist[nxt] = dist[cur] + next_cost
             pq.put((dist[nxt], nxt))
             way[nxt] = cur
 
