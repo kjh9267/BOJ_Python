@@ -5,7 +5,7 @@ for i in range(len(s)):
 a = list(set(s))
 b = [0]*len(a)
 for i in range(len(a)):
-    b[i] = s.count(a[i])
+    b[i] = s.depth(a[i])
 if b.count(max(b)) >= 2:
     print '?'
 else:

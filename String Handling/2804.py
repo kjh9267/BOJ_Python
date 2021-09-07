@@ -6,7 +6,7 @@ graph = [['.' for j in range(len(a))] for i in range(len(b))]
 for i, char in enumerate(a):
     if char in b:
         same = i
-        start = b.index(char)
+        start = b.depth(char)
         break
 
 graph[start] = list(a)
