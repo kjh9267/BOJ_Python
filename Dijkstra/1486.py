@@ -1,19 +1,20 @@
-import sys
+from sys import stdin
 from queue import PriorityQueue
 
 
-def asc(char):
+def char_to_num(char):
     if 65 <= ord(char) < 91:
         return ord(char) - 65
     elif 97 <= ord(char) < 123:
         return ord(char) - 71
 
 
-def dijkstra(dist, direction):
+def dijkstra(direction):
     pq = PriorityQueue()
     # dist, (x, y)
     pq.put((0, (0, 0)))
 
+    dist = [[inf for _ in range(M)] for _ in range(N)]
     dist[0][0] = 0
 
     while not pq.empty():
@@ -29,65 +30,41 @@ def dijkstra(dist, direction):
 
             height_diff = (grid[next_y][next_x] - grid[cur_y][cur_x]) * direction
 
-            if -t < height_diff
+            if 0 <= height_diff <= T and dist[next_y][next_x] > cur_dist + 1:
+                dist[next_y][next_x] = cur_dist + 1
+                pq.put((dist[next_y][next_x], (next_x, next_y)))
+            elif -T <= height_diff < 0 and dist[next_y][next_x] > cur_dist + height_diff ** 2:
+                dist[next_y][next_x] = cur_dist + height_diff ** 2
+                pq.put((dist[next_y][next_x], (next_x, next_y)))
+
+    return dist
 
 
+def find_max_height(front_dist, back_dist):
+    max_height = 0
 
-n, m, t, d = map(int,sys.stdin.readline().split())
-graph = [list(map(asc,list(sys.stdin.readline().rstrip()))) for _ in range(n)]
-dx = (1,0,-1,0)
-dy = (0,1,0,-1)
-inf = float('inf')
-pq = PriorityQueue()
-pq.put((0, (0, 0)))
-res = [[inf for __ in range(m)] for _ in range(n)]
-res[0][0] = 0
-while pq.qsize():
-    dist, node = pq.get()
-    if dist > res[node[1]][node[0]]:
-        continue
-    for i, j in zip(dx, dy):
-        x = node[0] + i
-        y = node[1] + j
-        if 0 <= x < m and 0 <= y < n:
-            length = graph[y][x] - graph[node[1]][node[0]]
-            if -t <= length <= 0:
-                if res[y][x] > dist + 1:
-                    res[y][x] = dist + 1
-                    pq.put((res[y][x], (x, y)))
-            elif 0 < length <= t:
-                if res[y][x] > dist + (length ** 2):
-                    res[y][x] = dist + (length ** 2)
-                    pq.put((res[y][x], (x, y)))
+    for row in range(N):
+        for col in range(M):
+            if front_dist[row][col] + back_dist[row][col] > D:
+                continue
+            if max_height < grid[row][col]:
+                max_height = grid[row][col]
 
-pq = PriorityQueue()
-pq.put((0, (0, 0)))
-res2 = [[inf for __ in range(m)] for _ in range(n)]
-res2[0][0] = 0
-while pq.qsize():
-    dist, node = pq.get()
-    if dist > res2[node[1]][node[0]]:
-        continue
-    for i, j in zip(dx, dy):
-        x = node[0] + i
-        y = node[1] + j
-        if 0 <= x < m and 0 <= y < n:
-            length = graph[node[1]][node[0]] - graph[y][x]
-            if -t <= length <= 0:
-                if res2[y][x] > dist + 1:
-                    res2[y][x] = dist + 1
-                    pq.put((res2[y][x], (x, y)))
-            elif 0 < length <= t:
-                if res2[y][x] > dist + (length ** 2):
-                    res2[y][x] = dist + (length ** 2)
-                    pq.put((res2[y][x], (x, y)))
+    return max_height
 
-result = graph[0][0]
 
-for i in range(n):
-    for j in range(m):
-        if res[i][j] + res2[i][j] <= d:
-            if result < graph[i][j]:
-                result = graph[i][j]
+if __name__ == '__main__':
+    input = stdin.readline
+    dx = (1, 0, -1, 0)
+    dy = (0, 1, 0, -1)
+    front = 1
+    back = -1
+    inf = float('inf')
+    N, M, T, D = map(int, input().split())
+    grid = [list(map(char_to_num, input().rstrip())) for _ in range(N)]
 
-print(result)
+    front_dist = dijkstra(front)
+    back_dist = dijkstra(back)
+    max_height = find_max_height(front_dist, back_dist)
+
+    print(max_height)
