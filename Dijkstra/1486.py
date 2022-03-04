@@ -9,6 +9,30 @@ def asc(char):
         return ord(char) - 71
 
 
+def dijkstra(dist, direction):
+    pq = PriorityQueue()
+    # dist, (x, y)
+    pq.put((0, (0, 0)))
+
+    dist[0][0] = 0
+
+    while not pq.empty():
+        cur_dist, cur_node = pq.get()
+        cur_x, cur_y = cur_node
+
+        for x_diff, y_diff in zip(dx, dy):
+            next_x = cur_x + x_diff
+            next_y = cur_y + y_diff
+
+            if not (0 <= next_x < M and 0 <= next_y < N):
+                continue
+
+            height_diff = (grid[next_y][next_x] - grid[cur_y][cur_x]) * direction
+
+            if -t < height_diff
+
+
+
 n, m, t, d = map(int,sys.stdin.readline().split())
 graph = [list(map(asc,list(sys.stdin.readline().rstrip()))) for _ in range(n)]
 dx = (1,0,-1,0)
