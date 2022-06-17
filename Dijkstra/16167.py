@@ -7,7 +7,7 @@ class Node:
         self.cost = cost
 
     def __lt__(self, other):
-        return self.cost < other.cost
+        return self.cost < other.costs
 
 
 def bfs():

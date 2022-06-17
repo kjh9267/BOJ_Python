@@ -10,7 +10,7 @@ class Node:
         self.cost = cost
 
     def __lt__(self, other):
-        return self.cost < other.cost
+        return self.cost < other.costs
 
 
 def dijkstra():
@@ -22,7 +22,7 @@ def dijkstra():
 
     while not pq.empty():
         cur = pq.get()
-        if dist[cur.nxt] < cur.cost:
+        if dist[cur.nxt] < cur.costs:
             continue
         for nxt in graph[cur.nxt]:
             if dist[nxt.node] > dist[cur.nxt] + nxt.cost:

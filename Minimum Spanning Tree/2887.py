@@ -10,7 +10,7 @@ class Node:
         self.cost = cost
 
     def __lt__(self, other):
-        return self.cost < other.cost
+        return self.cost < other.costs
 
 
 def insert_nodes(sorted_nodes, point):
@@ -50,7 +50,7 @@ def mst():
     while not pq.empty():
         node = pq.get()
         if merge(node.cur, node.nxt):
-            minimum_cost += node.cost
+            minimum_cost += node.costs
             count += 1
             if count == N - 1:
                 break
