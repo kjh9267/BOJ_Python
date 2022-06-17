@@ -15,13 +15,13 @@ def bfs(start_node):
     queue.append(start_node)
 
     visited = [[-1 for _ in range(M)] for _ in range(N)]
-    visited[start_node.y][start_node.x] = 0
+    visited[start_node.y][start_node.cur] = 0
 
     while queue:
         current_node = queue.popleft()
 
         for diff_x, diff_y in zip(dx, dy):
-            next_x = current_node.x + diff_x
+            next_x = current_node.cur + diff_x
             next_y = current_node.y + diff_y
 
             if is_out_of_bound(next_x, next_y):
@@ -30,7 +30,7 @@ def bfs(start_node):
                 continue
             if is_visited(next_x, next_y, visited):
                 continue
-            visited[next_y][next_x] = visited[current_node.y][current_node.x] + 1
+            visited[next_y][next_x] = visited[current_node.y][current_node.cur] + 1
             queue.append(Node(next_x, next_y))
 
     return visited

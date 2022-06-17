@@ -56,7 +56,7 @@ def see(cases):
     temp = deep_copy()
     for index, case in enumerate(cases):
         dirs = tvs[index].get_dir(case)
-        x, y = tvs[index].x, tvs[index].y
+        x, y = tvs[index].cur, tvs[index].y
         temp[y][x] = 7
         for i in dirs:
             next_x = x + dx[i]

@@ -17,7 +17,7 @@ def bfs():
     while queue:
         cur = queue.popleft()
         for idx, diff in enumerate(zip(dx, dy)):
-            next_x = cur.x + diff[0]
+            next_x = cur.cur + diff[0]
             next_y = cur.y + diff[1]
             if not (0 <= next_x < M and 0 <= next_y < N):
                 continue
@@ -28,7 +28,7 @@ def bfs():
             next_cnt = cur.cnt + (0 if idx < 4 else 1)
             if visited[next_y][next_x][next_cnt] != -1:
                 continue
-            visited[next_y][next_x][next_cnt] = visited[cur.y][cur.x][cur.cnt] + 1
+            visited[next_y][next_x][next_cnt] = visited[cur.y][cur.cur][cur.cnt] + 1
             queue.append(Node(next_x, next_y, next_cnt))
 
     res = float('inf')

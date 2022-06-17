@@ -40,10 +40,10 @@ def mst():
 
     while not pq.empty():
         link = pq.get()
-        if not merge(link.x, link.y):
+        if not merge(link.cur, link.y):
             continue
-        tree[link.x].append((link.y, link.cost))
-        tree[link.y].append((link.x, link.cost))
+        tree[link.cur].append((link.y, link.cost))
+        tree[link.y].append((link.cur, link.cost))
         count += 1
         if count == N - 1:
             break

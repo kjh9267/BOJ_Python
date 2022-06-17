@@ -17,16 +17,16 @@ def bfs():
     while queue:
         cur = queue.popleft()
         for diff_x, diff_y in zip(dx, dy):
-            next_x = cur.x + diff_x
+            next_x = cur.cur + diff_x
             next_y = cur.y + diff_y
             if not (0 <= next_x < M and 0 <= next_y < N):
                 continue
             value = grid[next_y][next_x]
             if value == '0' and visited[next_y][next_x][cur.cnt] == -1:
-                visited[next_y][next_x][cur.cnt] = visited[cur.y][cur.x][cur.cnt] + 1
+                visited[next_y][next_x][cur.cnt] = visited[cur.y][cur.cur][cur.cnt] + 1
                 queue.append(Node(next_x, next_y, cur.cnt))
             elif value == '1' and cur.cnt < K and visited[next_y][next_x][cur.cnt + 1] == -1:
-                visited[next_y][next_x][cur.cnt + 1] = visited[cur.y][cur.x][cur.cnt] + 1
+                visited[next_y][next_x][cur.cnt + 1] = visited[cur.y][cur.cur][cur.cnt] + 1
                 queue.append(Node(next_x, next_y, cur.cnt + 1))
 
     res = float('inf')
