@@ -41,16 +41,15 @@ def find_lowest_common_ancestor(x, y):
             continue
         x = parents[x][exp]
 
+    if x == y:
+        return x
+
     for exp in range(log_n, -1, -1):
-        if x == y:
-            break
         if parents[x][exp] == parents[y][exp]:
             continue
         x = parents[x][exp]
         y = parents[y][exp]
 
-    if x == y:
-        return x
     return parents[x][0]
 
 
