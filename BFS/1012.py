@@ -26,13 +26,13 @@ def solve():
 def bfs(node):
     queue = deque()
     queue.append(node)
-    visited[node.y][node.cur] = True
+    visited[node.y][node.x] = True
 
     while queue:
         cur = queue.popleft()
 
         for diff_x, diff_y in zip(dx, dy):
-            next_x = cur.cur + diff_x
+            next_x = cur.x + diff_x
             next_y = cur.y + diff_y
             if not (0 <= next_y < N and 0 <= next_x < M):
                 continue

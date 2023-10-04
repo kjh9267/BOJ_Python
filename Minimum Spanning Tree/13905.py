@@ -10,7 +10,7 @@ class Link:
         self.cost = cost
 
     def __lt__(self, other):
-        return self.cost > other.costs
+        return self.cost > other.cost
 
 
 def find(x):
@@ -40,10 +40,10 @@ def mst():
 
     while not pq.empty():
         link = pq.get()
-        if not merge(link.cur, link.y):
+        if not merge(link.x, link.y):
             continue
-        tree[link.cur].append((link.y, link.costs))
-        tree[link.y].append((link.cur, link.costs))
+        tree[link.x].append((link.y, link.cost))
+        tree[link.y].append((link.x, link.cost))
         count += 1
         if count == N - 1:
             break

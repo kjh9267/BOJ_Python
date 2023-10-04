@@ -17,16 +17,16 @@ def bfs():
     while queue:
         cur = queue.popleft()
         for diff_x, diff_y in zip(dx, dy):
-            next_x = cur.cur + diff_x
+            next_x = cur.x + diff_x
             next_y = cur.y + diff_y
             if not (0 <= next_x < M and 0 <= next_y < N):
                 continue
             value = grid[next_y][next_x]
             if value == air and visited[next_y][next_x][cur.is_destroy] == -1:
-                visited[next_y][next_x][cur.is_destroy] = visited[cur.y][cur.cur][cur.is_destroy] + 1
+                visited[next_y][next_x][cur.is_destroy] = visited[cur.y][cur.x][cur.is_destroy] + 1
                 queue.append(Node(next_x, next_y, cur.is_destroy))
             elif value == wall and cur.is_destroy == not_destroy and visited[next_y][next_x][destroy] == -1:
-                visited[next_y][next_x][destroy] = visited[cur.y][cur.cur][not_destroy] + 1
+                visited[next_y][next_x][destroy] = visited[cur.y][cur.x][not_destroy] + 1
                 queue.append(Node(next_x, next_y, destroy))
 
     mini = min(visited[N - 1][M - 1])

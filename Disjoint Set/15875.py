@@ -96,21 +96,21 @@ def merge(x, y):
 def farming():
 
     for ele in flat:
-        idx = ele.y * (W + 2) + ele.cur
+        idx = ele.y * (W + 2) + ele.x
         # if ele.height == flat[-1].height:
         #     parent[idx] = inf
         #     continue
-        if outer[ele.y][ele.cur]:
+        if outer[ele.y][ele.x]:
             continue
-        inner_check(ele.cur, ele.y)
+        inner_check(ele.x, ele.y)
         for x, y in zip(dx, dy):
-            next_x = ele.cur + x
+            next_x = ele.x + x
             next_y = ele.y + y
             next_idx = next_y * (W + 2) + next_x
             if outer[next_y][next_x]:
                 continue
-            if graph[next_y][next_x] <= graph[ele.y][ele.cur]:
-                if maximum[find(next_idx)] > graph[ele.y][ele.cur]:
+            if graph[next_y][next_x] <= graph[ele.y][ele.x]:
+                if maximum[find(next_idx)] > graph[ele.y][ele.x]:
                     merge(idx, next_idx)
 
             # else:
