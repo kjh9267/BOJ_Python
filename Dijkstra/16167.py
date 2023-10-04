@@ -7,7 +7,7 @@ class Node:
         self.cost = cost
 
     def __lt__(self, other):
-        return self.cost < other.costs
+        return self.cost < other.cost
 
 
 def bfs():
@@ -35,9 +35,9 @@ def dijkstra():
 
     while not pq.empty():
         cur = pq.get()
-        for nxt in graph[cur.nxt]:
-            if res[nxt.node] > res[cur.nxt] + nxt.cost:
-                res[nxt.node] = res[cur.nxt] + nxt.cost
+        for nxt in graph[cur.node]:
+            if res[nxt.node] > res[cur.node] + nxt.cost:
+                res[nxt.node] = res[cur.node] + nxt.cost
                 pq.put(Node(nxt.node, res[nxt.node]))
     return res
 

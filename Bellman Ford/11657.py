@@ -25,8 +25,8 @@ if __name__ == '__main__':
     for i in range(N):
         for j in range(N):
             for node in graph[j]:
-                if res[j] != inf and res[node.nxt] > res[j] + node.costs:
-                    res[node.nxt] = res[j] + node.costs
+                if res[j] != inf and res[node.nxt] > res[j] + node.cost:
+                    res[node.nxt] = res[j] + node.cost
                     if i == N - 1:
                         print(-1)
                         exit()
