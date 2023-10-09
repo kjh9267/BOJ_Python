@@ -29,11 +29,9 @@ def update(node, start, end, index, value):
     if not (start <= index <= end):
         return tree[node]
 
-    if index == tree[node][1]:
+    if start == end:
         tree[node][0] = value
         tree[node][1] = index
-
-    if start == end:
         return tree[node]
 
     mid = (start + end) >> 1
