@@ -1,27 +1,30 @@
 # https://www.acmicpc.net/problem/5052
 
 
-def insert(trie_node, phone_number, index):
-    end, children = trie_node
+class TrieNode:
+    def __init__(self, end, children):
+        self.__end = end
+        self.__children = children
 
-    if end:
-        return False
+    def insert(self, phone_number, index):
+        if self.__end:
+            return False
 
-    if index == len(phone_number) - 1:
-        trie_node[0] = True
-        return True
+        if index == len(phone_number) - 1:
+            self.__end = True
+            return True
 
-    next_value = phone_number[index + 1]
+        next_value = phone_number[index + 1]
 
-    if not children[next_value]:
-        children[next_value] = [False, [None for _ in range(10)]]
+        if not self.__children[next_value]:
+            self.__children[next_value] = TrieNode(False, [None for _ in range(_children_size)])
 
-    return insert(children[next_value], phone_number, index + 1)
+        return self.__children[next_value].insert(phone_number, index + 1)
 
 
 def is_possible():
     for phone_number in phone_numbers:
-        if not insert(trie_node, phone_number, -1):
+        if not trie_node.insert(phone_number, -1):
             return False
 
     return True
@@ -32,6 +35,7 @@ if __name__ == '__main__':
     _yes = "YES"
     _no = 'NO'
     _new_line = "\n"
+    _children_size = 10
     T = int(input())
     result = list()
 
@@ -39,8 +43,7 @@ if __name__ == '__main__':
         N = int(input())
         phone_numbers = [tuple(map(int, input().rstrip())) for _ in range(N)]
         phone_numbers.sort()
-        # end, children
-        trie_node = [False, [None for _ in range(10)]]
+        trie_node = TrieNode(False, [None for _ in range(_children_size)])
 
         if not is_possible():
             result.append(_no)
@@ -48,6 +51,3 @@ if __name__ == '__main__':
             result.append(_yes)
 
     print(_new_line.join(map(str, result)))
-
-
-
