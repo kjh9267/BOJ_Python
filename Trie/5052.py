@@ -6,20 +6,20 @@ class TrieNode:
         self.__end = end
         self.__children = children
 
-    def insert(self, phone_number, index):
+    def insert(self, phone_number, depth):
         if self.__end:
             return False
 
-        if index == len(phone_number) - 1:
+        if depth == len(phone_number) - 1:
             self.__end = True
             return True
 
-        next_value = phone_number[index + 1]
+        index = phone_number[depth + 1]
 
-        if not self.__children[next_value]:
-            self.__children[next_value] = TrieNode(False, [None for _ in range(_children_size)])
+        if not self.__children[index]:
+            self.__children[index] = TrieNode(False, [None for _ in range(_children_size)])
 
-        return self.__children[next_value].insert(phone_number, index + 1)
+        return self.__children[index].insert(phone_number, depth + 1)
 
 
 def is_possible():

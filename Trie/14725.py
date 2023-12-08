@@ -7,25 +7,25 @@ class TrieNode:
         self.end = end
         self.children = children
 
-    def insert(self, words, index):
-        if words[index] == _space:
+    def insert(self, words, depth):
+        if words[depth] == _space:
             self.start = True
 
-        if index == len(words) - 1:
+        if depth == len(words) - 1:
             self.end = True
             return
 
-        next_value = ord(words[index + 1]) - 65
-        if next_value < 0:
-            next_value = 26
+        index = ord(words[depth + 1]) - 65
+        if index < 0:
+            index = 26
 
-        if not self.children[next_value]:
-            self.children[next_value] = TrieNode(False, False, [None for _ in range(27)])
+        if not self.children[index]:
+            self.children[index] = TrieNode(False, False, [None for _ in range(27)])
 
-        if next_value == 26:
+        if index == 26:
             self.end = True
 
-        self.children[next_value].insert(words, index + 1)
+        self.children[index].insert(words, depth + 1)
 
     def find(self, depth, word):
         if self.start:
@@ -33,7 +33,7 @@ class TrieNode:
             depth += 1
 
         if self.end:
-            result.append(_depth * depth + ''.join(word))
+            result.append(_depth * depth + _empty.join(word))
 
         for index, next_node in enumerate(self.children):
             if not next_node:
@@ -44,6 +44,7 @@ class TrieNode:
 
 if __name__ == '__main__':
     input = __import__('sys').stdin.readline
+    _empty = ''
     _space = ' '
     _depth = '--'
     _new_line = '\n'
