@@ -6,7 +6,7 @@ def bipartite_match(a):
     b_matched = [_not_matched for _ in range(b_group_size)]
     matched = 0
 
-    for _ in range(a_group_size * 2):
+    for _ in range(a_group_size):
         a %= a_group_size
         visited = [False for _ in range(a_group_size)]
         if dfs(a, a_matched, b_matched, visited):
