@@ -52,7 +52,7 @@ def dfs(cur, work, level, flow_value):
         min_flow_value = min(flow_value, capacity[cur][nxt] - flow[cur][nxt])
         min_flow_value = dfs(nxt, work, level, min_flow_value)
 
-        if min_flow_value <= 0:
+        if min_flow_value == 0:
             continue
 
         flow[cur][nxt] += min_flow_value
@@ -87,11 +87,8 @@ if __name__ == '__main__':
         if end < start:
             start, end = end, start
         if is_terminal_node(start) and is_terminal_node(end):
-            end = sink
             graph[start].append(sink)
             capacity[start][sink] = _max_capacity
-
-            # graph[end].append(start)
         elif is_terminal_node(start):
             graph[start].append((end - 1) * 2)
             capacity[start][(end - 1) * 2] = _max_capacity
