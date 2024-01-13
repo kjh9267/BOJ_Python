@@ -26,7 +26,7 @@ def decompose(cur, depth):
     if not tree[cur]:
         return
 
-    heavy = max(tree[cur], key=lambda x: -tree_sizes[x])
+    heavy = sorted(tree[cur], key=lambda x: -tree_sizes[x])[0]
     next_index = index + 1
     parents[next_index] = indices[cur]
     decompose(heavy, depth + 1)
@@ -49,11 +49,8 @@ def is_connected_pair(x, y):
             x, y = y, x
 
         head = heads[groups[x]]
-
-        if x != head:
-            head += 1
-
         not_connected |= is_connected(1, 1, N, head, x)
+
         x = parents[head]
 
     if x == y:

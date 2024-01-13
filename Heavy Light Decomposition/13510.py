@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/13510
+import sys
 from math import ceil
 from math import log
-import sys
 sys.setrecursionlimit(999999999)
 
 
@@ -17,7 +17,7 @@ def dfs(cur):
     return tree_sizes[cur]
 
 
-def decompose(cur, depth, index, group):
+def decompose(cur, prev, depth, index, group):
     index[0] += 1
     indices[cur] = index[0]
 
@@ -27,7 +27,13 @@ def decompose(cur, depth, index, group):
     if heads[group[0]] == 0:
         heads[group[0]] = index[0]
 
-    link, heavy, cost = max(tree[cur], key=lambda x: -tree_sizes[x[1]])
+    tree[cur].sort(key=lambda x: -tree_sizes[x[1]])
+    link, heavy, cost = tree[cur][0]
+
+    if heavy == prev:
+        if len(tree[cur]) == 1:
+            return
+        link, heavy, cost = tree[cur][1]
 
     if not visited[heavy]:
         visited[heavy] = True
@@ -36,7 +42,7 @@ def decompose(cur, depth, index, group):
         parents[next_index] = indices[cur]
         child_nodes[link] = next_index
         costs[next_index] = cost
-        decompose(heavy, depth + 1, index, group)
+        decompose(heavy, cur, depth + 1, index, group)
 
     for link, nxt, cost in tree[cur]:
         if nxt == heavy:
@@ -50,7 +56,7 @@ def decompose(cur, depth, index, group):
         parents[next_index] = indices[cur]
         child_nodes[link] = next_index
         costs[next_index] = cost
-        decompose(nxt, depth + 1, index, group)
+        decompose(nxt, cur, depth + 1, index, group)
 
 
 def init_segment_tree(node, start, end):
@@ -108,9 +114,6 @@ def find_maximum_value_of_path(x, y):
 
         head = heads[groups[x]]
 
-        if x != head:
-            head += 1
-
         value = find_maximum_value(1, 1, N, head, x)
         maximum_value = max(maximum_value, value)
         x = parents[head]
@@ -155,7 +158,7 @@ if __name__ == '__main__':
     costs = [0 for _ in range(N + 1)]
 
     visited[1] = True
-    decompose(1, 1, index, group)
+    decompose(1, 0, 1, index, group)
 
     height = ceil(log(N, 2)) + 1
     size = 2 ** height
