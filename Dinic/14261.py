@@ -99,14 +99,20 @@ if __name__ == '__main__':
         else:
             graph[(start - 1) * 2 + 1].append((end - 1) * 2)
             capacity[(start - 1) * 2 + 1][(end - 1) * 2] = _max_capacity
+            graph[(end - 1) * 2].append((start - 1) * 2 + 1)
+            capacity[(end - 1) * 2][(start - 1) * 2 + 1] = 0
             graph[(end - 1) * 2 + 1].append((start - 1) * 2)
             capacity[(end - 1) * 2 + 1][(start - 1) * 2] = _max_capacity
+            graph[(start - 1) * 2].append((end - 1) * 2 + 1)
+            capacity[(start - 1) * 2][(end - 1) * 2 + 1] = 0
 
     for node in range(2, N):
         start = (node - 1) * 2
         end = (node - 1) * 2 + 1
         graph[start].append(end)
+        graph[end].append(start)
         capacity[start][end] = nums[node - 1]
+        capacity[end][start] = 0
 
     total = dinic()
 
