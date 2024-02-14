@@ -19,51 +19,49 @@ class TrieNode:
 
         self.children[index].insert(word, depth + 1)
 
+    def bfs(self, root):
+        queue = deque()
+        queue.append(root)
 
-def bfs(root):
-    queue = deque()
-    queue.append(root)
+        root.fail = root
 
-    root.fail = root
+        while queue:
+            cur = queue.popleft()
 
-    while queue:
-        cur = queue.popleft()
+            for index, nxt in enumerate(cur.children):
+                if not nxt:
+                    continue
+                if cur == root:
+                    nxt.fail = root
+                else:
+                    node = cur.fail
+                    while node != root and not node.children[index]:
+                        node = node.fail
 
-        for index, nxt in enumerate(cur.children):
-            if not nxt:
-                continue
-            if cur == root:
-                nxt.fail = root
-            else:
-                node = cur.fail
-                while node != root and not node.children[index]:
-                    node = node.fail
+                    if node.children[index]:
+                        node = node.children[index]
 
-                if node.children[index]:
-                    node = node.children[index]
+                    nxt.fail = node
 
-                nxt.fail = node
+                nxt.end = nxt.fail.end or nxt.end
+                queue.append(nxt)
 
-            nxt.end = nxt.fail.end or nxt.end
-            queue.append(nxt)
+    def find(self, string, root):
+        node = root
 
+        for char in string:
+            index = ord(char) - 97
 
-def find(string, root):
-    node = root
+            while node != root and not node.children[index]:
+                node = node.fail
 
-    for char in string:
-        index = ord(char) - 97
+            if node.children[index]:
+                node = node.children[index]
 
-        while node != root and not node.children[index]:
-            node = node.fail
+            if node.end:
+                return True
 
-        if node.children[index]:
-            node = node.children[index]
-
-        if node.end:
-            return True
-
-    return False
+        return False
 
 
 if __name__ == '__main__':
@@ -81,10 +79,10 @@ if __name__ == '__main__':
     for word in words:
         trie.insert(word, -1)
 
-    bfs(trie)
+    trie.bfs(trie)
 
     for string in data:
-        if find(string, trie):
+        if trie.find(string, trie):
             result.append(_yes)
         else:
             result.append(_no)
