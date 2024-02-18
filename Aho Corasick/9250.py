@@ -3,6 +3,8 @@ from collections import deque
 
 
 class TrieNode:
+    root = None
+
     def __init__(self, end, fail, children):
         self.end = end
         self.fail = fail
@@ -19,11 +21,12 @@ class TrieNode:
 
         self.children[index].insert(word, depth + 1)
 
-    def bfs(self, root):
+    @classmethod
+    def bfs(cls):
         queue = deque()
-        queue.append(root)
+        queue.append(cls.root)
 
-        root.fail = root
+        cls.root.fail = cls.root
 
         while queue:
             cur = queue.popleft()
@@ -31,11 +34,11 @@ class TrieNode:
             for index, nxt in enumerate(cur.children):
                 if not nxt:
                     continue
-                if cur == root:
-                    nxt.fail = root
+                if cur == cls.root:
+                    nxt.fail = cls.root
                 else:
                     node = cur.fail
-                    while node != root and not node.children[index]:
+                    while node != cls.root and not node.children[index]:
                         node = node.fail
 
                     if node.children[index]:
@@ -46,13 +49,14 @@ class TrieNode:
                 nxt.end = nxt.fail.end or nxt.end
                 queue.append(nxt)
 
-    def find(self, string, root):
-        node = root
+    @classmethod
+    def find(cls, string):
+        node = cls.root
 
         for char in string:
             index = ord(char) - 97
 
-            while node != root and not node.children[index]:
+            while node != cls.root and not node.children[index]:
                 node = node.fail
 
             if node.children[index]:
@@ -74,15 +78,16 @@ if __name__ == '__main__':
     Q = int(input())
     data = [input().rstrip() for _ in range(Q)]
     trie = TrieNode(False, None, [None for _ in range(26)])
+    TrieNode.root = trie
     result = list()
 
     for word in words:
         trie.insert(word, -1)
 
-    trie.bfs(trie)
+    trie.bfs()
 
     for string in data:
-        if trie.find(string, trie):
+        if trie.find(string):
             result.append(_yes)
         else:
             result.append(_no)
