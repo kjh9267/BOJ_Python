@@ -35,8 +35,6 @@ def find_lowest_common_ancestor(x, y):
         x, y = y, x
 
     for exp in range(log_n, -1, -1):
-        if 2 ** exp > depth[x] - depth[y]:
-            continue
         if depth[y] > depth[parents[x][exp]]:
             continue
         x = parents[x][exp]
